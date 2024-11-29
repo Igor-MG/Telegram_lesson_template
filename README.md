@@ -23,7 +23,7 @@
 
 - **`telegram_file_id`**  
   ID заставки урока в Telegram.  
-  Изображение предварительно загружается в Telegram через административную группу, чтобы получить этот ID.
+  Для получения ID изображение предварительно загружается в Telegram через административную группу.
 
 - **`content`**  
   Содержание урока. Указывается для каждого языка. Сообщения разделены запятыми.  
@@ -80,6 +80,7 @@
             "ru": "Какую роль играет Holichain (HC) в экосистеме Holiverse?",
             "en": "What role does Holichain (HC) play in the Holiverse ecosystem?"
         },
+        "telegram_file_id":,
         "options": {
             "ru": [
                 "Используется только для стейкинга",
@@ -105,9 +106,10 @@
 "questions": [
     {
         "question": {
-            "ru": ["Какую роль играет Holichain (HC) в экосистеме Holiverse?", "AgACAgIAAxkBAAI..."],
-            "en": ["What role does Holichain (HC) play in the Holiverse ecosystem?", "AgACAgIAAxkBAAI..."]
+            "ru": "Какую роль играет Holichain (HC) в экосистеме Holiverse?",
+            "en": "What role does Holichain (HC) play in the Holiverse ecosystem?"
         },
+        "telegram_file_id": "AgACAgIAAxkBAAI...",
         "options": {
             "ru": [
                 "Используется только для стейкинга",
