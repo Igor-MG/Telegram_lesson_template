@@ -72,13 +72,41 @@
 - **`options`**: Варианты ответов. Тип данных: массив строк (отдельный массив для каждого языка).  
 - **`correct_answer`**: Правильный ответ. Указывается для каждого языка.
 
-Пример структуры:
+Пример структуры без картинки:
 ```json
 "questions": [
     {
         "question": {
             "ru": "Какую роль играет Holichain (HC) в экосистеме Holiverse?",
             "en": "What role does Holichain (HC) play in the Holiverse ecosystem?"
+        },
+        "options": {
+            "ru": [
+                "Используется только для стейкинга",
+                "Основной токен для транзакций и утилитарных функций",
+                "Не имеет экономической ценности"
+            ],
+            "en": [
+                "Used only for staking",
+                "The main token for transactions and utility functions",
+                "Has no economic value"
+            ]
+        },
+        "correct_answer": {
+            "ru": "Основной токен для транзакций и утилитарных функций",
+            "en": "The main token for transactions and utility functions"
+        }
+    }
+]
+```
+
+Пример структуры с картинкой:
+```json
+"questions": [
+    {
+        "question": {
+            "ru": ["Какую роль играет Holichain (HC) в экосистеме Holiverse?", "AgACAgIAAxkBAAI..."],
+            "en": ["What role does Holichain (HC) play in the Holiverse ecosystem?", "AgACAgIAAxkBAAI..."]
         },
         "options": {
             "ru": [
