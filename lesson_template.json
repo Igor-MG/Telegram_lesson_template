@@ -1,0 +1,55 @@
+{
+  "title": {
+    "ru": "Holichain (HC)",
+    "en": "Holichain (HC)"
+  },
+  "topic": "Holiverse",
+  "points": 10,
+  "description": {
+    "ru": "Изучите основы Holichain, нативного токена Holiverse...",
+    "en": "Explore the fundamentals of Holichain, Holiverse's native token..."
+  },
+  "telegram_file_id": "AgACAgIAAxkBAAI...",
+  "content": {
+    "ru": [
+      "*Holichain ($HC)* — нативный токен, ядро экономики Holiverse...",
+      [
+        "Holichain появился как полноценная замена Forcecoin...",
+        "AgACAgIAAxkBAAI..."
+      ],
+      "*Holichain ($HC)* — нативный токен."
+    ],
+    "en": [
+      "*Holichain ($HC)* is the native token, the core of the economy...",
+      [
+        "Holichain emerged as a complete replacement for Forcecoin...",
+        "AgACAgIAAxkBAAI..."
+      ],
+      "*Holichain ($HC)* is the native token."
+    ]
+  },
+  "questions": [
+    {
+      "question": {
+        "ru": "Какую роль играет Holichain (HC) в экосистеме Holiverse?",
+        "en": "What role does Holichain (HC) play in the Holiverse ecosystem?"
+      },
+      "options": {
+        "ru": [
+          "Используется только для стейкинга",
+          "Основной токен для транзакций и утилитарных функций",
+          "Не имеет экономической ценности"
+        ],
+        "en": [
+          "Used only for staking",
+          "The main token for transactions and utility functions",
+          "Has no economic value"
+        ]
+      },
+      "correct_answer": {
+        "ru": "Основной токен для транзакций и утилитарных функций",
+        "en": "The main token for transactions and utility functions"
+      }
+    }
+  ]
+}
